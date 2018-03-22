@@ -1,6 +1,5 @@
 """
-This bot listens to port 5002 for incoming connections from Facebook. It takes
-in any messages that the bot receives and echos it back.
+This is a simple server that serves static file on port 9002
 """
 from flask import Flask, request
 
